@@ -8,6 +8,7 @@
 </div>
 </div>
 <div class="row m-top">
+<<<<<<< HEAD
 <div id="create_asset-div m-top">
 <div class="container m-top">
     <form name="create_asset_form" class="form-horizontal" role="form" ng-submit="create_asset_form.$valid && create()" >
@@ -66,3 +67,46 @@
     </form>
 </div></div>
 
+=======
+  <div class="col-md-8">
+      <form name="create_asset_form" class="form-horizontal" role="form" ng-submit="create()" novalidate>
+        <!--symbol-->
+        <div form-hgroup label="{{'asset.symbol'|translate}}">
+          <input ng-model="create_asset.symbol" type="text" name="symbol" class="form-control"
+                 ui-validate="{valid_symbol: 'is_valid_symbol($value)'}"
+                 minlength="3" maxlength="8" ng-change="symbol_changed()" required/>
+          <div ng-show="!create_asset_form.symbol.$pristine && create_asset_form.symbol.$error.valid_symbol"
+               class="text-danger">
+            <span translate>tip.validate_symbol</span>
+          </div>
+        </div>
+        <!--name-->
+        <div form-hgroup label="{{'asset.asset_name'|translate}}">
+          <input name="asset_name" ng-model="create_asset.asset_name" type="text" class="form-control" required/>
+        </div>
+        <!--description-->
+        <div form-hgroup label="{{'asset.description'|translate}}">
+          <input name="description" ng-model="create_asset.description" type="text" class="form-control"/>
+        </div>
+        <!--memo_data-->
+        <div form-hgroup label="{{'asset.memo_data'|translate}}">
+          <input name="memo" ng-model="create_asset.memo" type="text" class="form-control"/>
+        </div>
+        <!--maximum_share_supply-->
+        <div form-hgroup label="{{'asset.maximum_share_supply'|translate}}">
+          <input-positive-number name="maximum_share_supply" ng-model="create_asset.max_share_supply" required="true"/>
+        </div>
+        <!--precision-->
+        <div form-hgroup label="{{'asset.precision'|translate}}">
+          <input-positive-number name="precision" ng-model="create_asset.precision" required="true"/>
+        </div>
+        <!--Submit-->
+        <div form-hgroup-error></div>
+        <button form-hgroup-submit-btn help="{{'block.trx.fee'|translate}} {{reg_fee.current | formatDecimal}} {{reg_fee.symbol}}">
+          {{ "btn.create" | translate }}
+        </button>
+      </form>
+      <br/>
+    </div>
+</div>
+>>>>>>> d994e52... Create User Asset form refactoring #478
