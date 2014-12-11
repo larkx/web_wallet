@@ -17,9 +17,9 @@
         "warning": "Warning",
         "validate_symbol": "The Symbol should be 3-8 uppercase characters",
         "validate_precision": "Precision must be greater than 0 and must be a power of 10 (or 1).",
-        "pay_with_info": "Registering costs BTSX, Pay with",
+        "pay_with_info": "Registration fee, Pay with",
         "reg_as_delegate": "Registered as delegate",
-        "reg_delegate_tip": "Registering as delegate costs a lot of XTS",
+        "reg_delegate_tip": "Registering as delegate costs a lot",
         "reg_pending": "Registration pending.  Not registered yet.",
         "not_reg_onchain": "Not registered on the blockchain",
         "add_account_name_existed": "Cannot add contact.  Account name exists.",
@@ -42,7 +42,7 @@
         "no_trxs": "There are no transactions!",
         "updating_trx_history": "Updating transaction history...",
         "partial_voting_info": "This account is not voting with some of its stake. Consider updating your vote.",
-        "client_update_available": "There is a new mandatory client update available at bitshares-x.info"
+        "client_update_available": "There is a new mandatory client update available at pts.cubeconnex.com."
     },
     "th": {
         "date": "DATE",
@@ -142,8 +142,8 @@
     "unlock": {
         "btn_unlock": "unlock",
         "caps_lock_on": "Caps Lock is on!",
-        "desc_title": "the future of banking",
-        "desc_content_1": "BitShares is a global community using a distributed application to produce the best money in the world.",
+        "desc_title": "promoting open development and contribution to the DPOS platform",
+        "desc_content_1": "PTS is open-source and open strategy. PTS promotes open development and contribution to the DPOS platform by third party developers and investors. At the same time, PTS is agnostic to the features, technology, and business strategy of any particular DAC that is built on top of it. PTS is the Switzerland of DACs.",
         "desc_content_2": "",
         "wrong_pass": "Wrong Password."
     },
@@ -153,7 +153,7 @@
         "create_wallet": "Create Wallet"
     },
     "index": {
-        "title": "BitShares Wallet",
+        "title": "PTS Wallet",
         "overview": "Overview",
         "my_account": "My Accounts",
         "directory": "Directory",
@@ -182,7 +182,7 @@
         "description": "Description",
         "proposal": "Delegate bid",
         "location": "Server location",
-        "handle": "BitsharesTalk username",
+        "handle": "PTS Forum username",
         "ann": "Announcements",
         "country": "Legal jurisdiction",
         "role_0": "Development",
@@ -219,8 +219,8 @@
         "blockchain_orders_history": "Blockchain Orders History",
         "account_orders_history": "Account Orders History",
         "margin_orders": "Margin Call Orders",
-        "margin_orders_explain": "A margin call will be executed any time the lowest ask is less than 110% of the moving average and the lowest ask is more than the call price.  The initial call price is 150% of the short price (ie: BTSX 45.00 for a short entered at BTSX 30.00).  This is the price at which 75% of the collateral would be required to buy back the USD necessary to cover the position.  If a margin call is executed and there is any collateral left over, then 5% is kept as network fees and 95% is returned to the owner. ",
-        "margin_call_price_explain": "The initial call price is 150% of the short price (ie: BTSX 45.00 for a short entered at BTSX 30.00).  This is the price at which 75% of the collateral would be required to buy back the USD necessary to cover the position.",
+        "margin_orders_explain": "A margin call will be executed any time the lowest ask is less than 110% of the moving average and the lowest ask is more than the call price.  The initial call price is 150% of the short price (ie: PTS 45.00 for a short entered at PTS 30.00).  This is the price at which 75% of the collateral would be required to buy back the USD necessary to cover the position.  If a margin call is executed and there is any collateral left over, then 5% is kept as network fees and 95% is returned to the owner. ",
+        "margin_call_price_explain": "The initial call price is 150% of the short price (ie: PTS 45.00 for a short entered at PTS 30.00).  This is the price at which 75% of the collateral would be required to buy back the USD necessary to cover the position.",
         "flip_market": "Flip Market",
         "buy_orders": "Buy {{value}} Orders",
         "sell_orders": "Sell {{value}} Orders",
@@ -385,7 +385,7 @@
     },
     "privacy": {
         "email_warning1": "Your email address is only used for the purpose of identifying your",
-        "email_warning2": "account which can be tied to your BitShares account.  This helps you and others verify that your transactions are sending funds to the expected individual. ",
+        "email_warning2": "account which can be tied to your PTS account.  This helps you and others verify that your transactions are sending funds to the expected individual. ",
         "email_warning3": "Your email is not shared with anyone and no one will be able to send you spam. "
     },
     "directory": {
