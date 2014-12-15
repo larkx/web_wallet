@@ -23,7 +23,7 @@ angular.module("app").controller "AccountController", ($scope, $state, $filter, 
     $scope.memo_size_max = 0
     $scope.private_key = {value : ""}
     $scope.p = { pendingRegistration: Wallet.pendingRegistrations[name] }
-    $scope.wallet_info = {file: "", password: "", type: 'Bitcoin/PTS'}
+    $scope.wallet_info = {file: "", password: "", type: 'Old PTS'}
     Blockchain.refresh_delegates().then ->
         if ($scope.account && $scope.account.delegate_info) 
             $scope.active_delegate = Blockchain.delegate_active_hash_map[name]
@@ -131,12 +131,12 @@ angular.module("app").controller "AccountController", ($scope, $state, $filter, 
         form.pass.$invalid = false
         promise = null
         switch $scope.wallet_info.type
-            when 'Bitcoin/PTS' then promise = WalletAPI.import_bitcoin($scope.wallet_info.file,$scope.wallet_info.password,$scope.account.name)
+            when 'Old PTS' then promise = WalletAPI.import_bitcoin($scope.wallet_info.file,$scope.wallet_info.password,$scope.account.name)
             when 'Multibit' then promise = WalletAPI.import_multibit($scope.wallet_info.file,$scope.wallet_info.password,$scope.account.name)
             when 'Electrum' then promise = WalletAPI.import_electrum($scope.wallet_info.file,$scope.wallet_info.password,$scope.account.name)
             when 'Armory' then promise = WalletAPI.import_armory($scope.wallet_info.file,$scope.wallet_info.password,$scope.account.name)
         promise?.then (response) ->
-            $scope.wallet_info.type = 'Bitcoin/PTS'
+            $scope.wallet_info.type = 'Old PTS'
             $scope.wallet_info.file = ""
             $scope.wallet_info.password = ""
             $modal.open
