@@ -149,7 +149,7 @@
     },
     "wallet": {
         "create_new_wallet": "Create a New Wallet",
-        "info": "Your password is mandatory and controls when and how your funds may be spent. If you forget this password you will be unable to transfer your shares.",
+        "info": "Your password is mandatory and controls when and how your funds may be spent. If you forget this password you will be unable to transfer your fund.",
         "create_wallet": "Create Wallet"
     },
     "index": {
