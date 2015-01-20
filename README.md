@@ -1,5 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/PTS-DPOS/web_wallet.svg?label=ready&title=Ready)](http://waffle.io/PTS-DPOS/web_wallet)
-# PTS Web Wallet
+# LarkX Web Wallet
 
 To start hacking on the GUI, install Node.js and run these commands:
 
@@ -7,14 +6,14 @@ To start hacking on the GUI, install Node.js and run these commands:
     $ npm start
 
 Start another shell, navigate to the web wallet directory, and start
-the PTS client:
+the LarkX client:
 
-    $ pts_client --server \
+    $ larkx_client --server \
         --rpcuser=test --rpcpassword=test \
-        --httpdendpoint=127.0.0.1:8800
+        --httpdendpoint=127.0.0.1:6000
 
 The client finds the local GUI code and launches a web server, which
-you can access by opening <http://localhost:8800>.  You could also
+you can access by opening <http://localhost:6000>.  You could also
 achieve this by setting the `htdocs` parameter in your config file.
 
 As long as you keep `npm start` running, the app will automatically be

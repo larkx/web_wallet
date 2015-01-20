@@ -17,9 +17,9 @@
         "warning": "Attenzione",
         "validate_symbol": "Il Simbolo deve contenere 3-8 caratteri maiuscoli",
         "validate_precision": "Precision deve essere sia maggiore di 0 che una potenza di 10 (o 1)",
-        "pay_with_info": "Registrarsi costa PTS, Paga con",
+        "pay_with_info": "Registrarsi costa XCL, Paga con",
         "reg_as_delegate": "Registrato come delegato",
-        "reg_delegate_tip": "Registrarsi come delegato costa molti PTS",
+        "reg_delegate_tip": "Registrarsi come delegato costa molti XCL",
         "reg_pending": "Registrazione pendente. Non ancora registrato",
         "not_reg_onchain": "Non ancora registrato nella blockchain",
         "add_account_name_existed": "Il contatto non può essere aggiunto. Conto già esistente.",
@@ -42,7 +42,7 @@
         "no_trxs": "Non ci sono transazioni!",
         "updating_trx_history": "Aggiornamento cronologia transazioni...",
         "partial_voting_info": "Questo conto non sta votando con alcuni dei suoi stake. Considera di aggiornare il tuo voto.",
-        "client_update_available": "C'è una nuova versione obbligatoria su pts.cubeconnex.com."
+        "client_update_available": "C'è una nuova versione obbligatoria su larkx.com."
     },
     "th": {
         "date": "DATA",
@@ -143,7 +143,7 @@
         "btn_unlock": "Sblocca",
         "caps_lock_on": "Caps Lock is on!",
         "desc_title": "promuovere lo sviluppo aperto e il contributo alla piattaforma DPOS.",
-        "desc_content_1": "PTS è open-source e la strategia aperta. PTS promuove lo sviluppo aperto e il contributo alla piattaforma DPOS da sviluppatori di terze parti e gli investitori. Allo stesso tempo, PTS è agnostico per la funzionalità, la tecnologia, e la strategia di business di qualsiasi DAC particolare che si basa su di esso. PTS è la Svizzera del DAC.",
+        "desc_content_1": "LarkX è open-source e la strategia aperta. LarkX promuove lo sviluppo aperto e il contributo alla piattaforma DPOS da sviluppatori di terze parti e gli investitori. Allo stesso tempo, LarkX è agnostico per la funzionalità, la tecnologia, e la strategia di business di qualsiasi DAC particolare che si basa su di esso. LarkX è la Svizzera del DAC.",
         "desc_content_2": "",
         "wrong_pass": "Password Sbagliata."
     },
@@ -153,7 +153,7 @@
         "create_wallet": "Crea Portafoglio"
     },
     "index": {
-        "title": "PTS Portafoglio",
+        "title": "LarkX Portafoglio",
         "overview": "Sommario",
         "my_account": "Miei Conti",
         "directory": "Cartella",
@@ -182,7 +182,7 @@
         "description": "Description",
         "proposal": "Delegate bid",
         "location": "Server location",
-        "handle": "PTS Forum username",
+        "handle": "LarkX Forum username",
         "ann": "Announcements",
         "country": "Legal jurisdiction",
         "role_0": "Development",
@@ -219,8 +219,8 @@
         "blockchain_orders_history": "Cronologia Ordini Blockchain",
         "account_orders_history": "Cronologia Ordini Conto",
         "margin_orders": "Ordini Margin Call",
-        "margin_orders_explain" : "Un Margin Call sarà eseguito ogni volta che il più basso ordine di acquisto (ask) è minore del 110% della media A margin call will be executed any time the lowest ask is less than 110% of the moving average and the lowest ask is more than the call price. The initial call price is 150% of the short price (ie: PTS 45.00 for a short entered at PTS 30.00). This is the price at which 75% of the collateral would be required to buy back the USD necessary to cover the position. If a margin call is executed and there is any collateral left over, then 5% is kept as network fees and 95% is returned to the owner. ",
-        "margin_call_price_explain": "The initial call price is 150% of the short price (ie: PTS 45.00 for a short entered at PTS 30.00). This is the price at which 75% of the collateral would be required to buy back the USD necessary to cover the position.",
+        "margin_orders_explain" : "Un Margin Call sarà eseguito ogni volta che il più basso ordine di acquisto (ask) è minore del 110% della media A margin call will be executed any time the lowest ask is less than 110% of the moving average and the lowest ask is more than the call price. The initial call price is 150% of the short price (ie: XCL 45.00 for a short entered at XCL 30.00). This is the price at which 75% of the collateral would be required to buy back the USD necessary to cover the position. If a margin call is executed and there is any collateral left over, then 5% is kept as network fees and 95% is returned to the owner. ",
+        "margin_call_price_explain": "The initial call price is 150% of the short price (ie: XCL 45.00 for a short entered at XCL 30.00). This is the price at which 75% of the collateral would be required to buy back the USD necessary to cover the position.",
         "flip_market": "Inverti Indice",
         "buy_orders": "Buy {{value}} Orders",
         "sell_orders": "Sell {{value}} Orders",
@@ -382,7 +382,7 @@
     },
     "privacy": {
         "email_warning1": "Il tuo indirizzo email è usato al solo scopo di identificare",
-"email_warning2": "il tuo conto che può essere legato al tuo conto PTS. Questo aiuta te e gli altri a verificare che le tue transazioni stanno inviando i fondi agli individui attesi. ",
+"email_warning2": "il tuo conto che può essere legato al tuo conto LarkX. Questo aiuta te e gli altri a verificare che le tue transazioni stanno inviando i fondi agli individui attesi. ",
         "email_warning3": "La tua email non sarà ceduta a nessuno e non riceverai alcuna posta indesiderata "
     },
     "directory": {
